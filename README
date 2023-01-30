@@ -1,0 +1,30 @@
+## Azure Synapse Project
+
+#### Tools
+Synapse, CosmosDB, PowerBI
+
+## Introduction
+This project leverages the power of Azure Synapse, CosmosDB and PowerBI to provide near real-time data processing and visualizations. The solution combines the best of both worlds, by using Azure Synapse for scalable data warehousing and CosmosDB for low-latency data processing. PowerBI is then used to provide interactive data visualizations for insights into the data.
+
+## Azure Synapse
+Azure Synapse is a limitless analytics service that brings big data and data warehousing together. It enables users to analyze data with Azure Synapse Studio, a web-based interface that allows for interactive querying and visualization of data.
+
+## CosmosDB
+CosmosDB is a fully managed NoSQL database that provides low-latency, highly available and globally distributed data storage. It provides seamless access to the data from any API, and allows for near real-time data processing. In this project, CosmosDB was used to provide low-latency data storage for near real-time processing.
+
+## Connecting CosmosDB to Azure Synapse
+To connect CosmosDB to Azure Synapse, the following steps must be taken:
+
+1. Create a CosmosDB account.
+2. Enable Synapse Link. This creates an OLAP (Online Analytical Processing) layer from the existing OLTP (Online Transactional Processing) data in CosmosDB.
+3. Create a database in CosmosDB.
+4. Create a container in the database and enable the Synapse Link. This allows the analytical data to be accessed through the Synapse Link, and SQL queries can be run directly in CosmosDB.
+5. Connect to the CosmosDB from within Azure Synapse.
+6. Use the key in a query from CosmosDB and pass it to a SQL query to connect the CosmosDB from within Azure Synapse within the SQL query.
+Once the connection has been established, you can start querying the data and integrating it into your reports and visualizations within Azure Synapse and PowerBI. With the ability to run SQL queries directly in CosmosDB, you can also perform advanced analytics on your data and make more informed decisions.
+
+## PowerBI
+PowerBI is a business intelligence tool that provides interactive data visualizations. It provides a range of charts, graphs, and reports that can be easily customized to suit your specific needs. In this project, PowerBI was used to provide interactive visualizations of the data stored in Azure Synapse and processed using CosmosDB.
+
+## Conclusion
+By combining the power of Azure Synapse, CosmosDB, and PowerBI, this project provides a scalable and performant solution for near real-time data processing and visualizations. The solution provides insights into the data, and makes it easier to understand and act upon the results.
